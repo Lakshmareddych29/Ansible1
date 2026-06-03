@@ -2,11 +2,11 @@
   hosts: localhost
   conection: local
   vars_files: 
-  - course.yaml
+   - course.yaml
   tasks:
-  - name: print information
-    debug:
-     msg: "hi,i am learning {{COURSE}}, trainer is {{TRAINER}}, duration is {{DURATION}}"
+   - name: print information
+     debug:
+       msg: "hi,i am learning {{COURSE}}, trainer is {{TRAINER}}, duration is {{DURATION}}"
        
 
   
