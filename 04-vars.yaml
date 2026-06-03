@@ -2,9 +2,9 @@
   hosts: localhosts
   connection: local
   vars: 
-   course: "Ansible"
-   trainer: "siva"
-   duration: "100hrs"
+   COURSE: "Ansible"
+   TRAINER: "siva"
+   DURATION: "100hrs"
   tasks:
   - debug:
-     msg: "hi,i am learning {{course}}, trainer is {{siva}}, duration is {{duration}}"
+     msg: "hi,i am learning {{ COURSE }}, trainer is {{ TRAINER }}, duration is {{ DURATION }}"
