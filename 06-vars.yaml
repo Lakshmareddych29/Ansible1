@@ -1,6 +1,5 @@
 - name: demo on vars_files
-  hosts: localhost
-  conection: local
+  hosts: frontend
   vars_files: 
   - course.yaml
   tasks:
