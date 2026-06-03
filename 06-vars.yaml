@@ -1,7 +1,6 @@
-- name: demo on varaibles
+- name: demo on vars_files
   hosts: local
   conection: local
-  tasks: 
   vars_files: 
    -course.yaml
   tasks:
