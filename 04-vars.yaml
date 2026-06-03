@@ -1,6 +1,6 @@
 - name: demo varaibles
-  hosts: localhost
-  connection: localhost
+  hosts: frontend
+  connection: frontend
   vars: 
    course: "Ansible"
    trainer: "siva"
