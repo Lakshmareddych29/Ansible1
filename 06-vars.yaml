@@ -2,7 +2,7 @@
   hosts: local
   conection: local
   vars_files: 
-   -course.yaml
+  - course.yaml
   tasks:
   - name: print information
     debug:
