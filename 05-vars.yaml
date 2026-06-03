@@ -1,5 +1,5 @@
-- name: demo varaibles
-  hosts: localhosts
+- name: demo on varaibles
+  hosts: localhost
   connection: local
   vars: 
    COURSE: "Ansible"
@@ -9,5 +9,4 @@
   - name: print information
     vars:
      COURSE: "DevOps with AIOps"
-  - debug:
      msg: "hi,i am learning {{COURSE}}, trainer is {{TRAINER}}, duration is {{DURATION}}"
